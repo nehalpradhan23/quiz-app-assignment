@@ -30,6 +30,4 @@ Live project link
 
 https://quiz-app-assignment-mu.vercel.app/
 
-github link
 
-https://github.com/nehalpradhan23/quiz-app-assignment
