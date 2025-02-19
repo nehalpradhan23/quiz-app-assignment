@@ -1,0 +1,114 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which planet is closest to the Sun?",
+      "type": "mcq",
+      "options": [
+        { "index": "A", "text": "Venus" },
+        { "index": "B", "text": "Mercury" },
+        { "index": "C", "text": "Earth" },
+        { "index": "D", "text": "Mars" }
+      ],
+      "answer": "B",
+      "attempts": [],
+      "userAnswer": ""
+    },
+    {
+      "id": 2,
+      "question": "Which data structure organizes items in a First-In, First-Out (FIFO) manner?",
+      "type": "mcq",
+      "options": [
+        { "index": "A", "text": "Stack" },
+        { "index": "B", "text": "Queue" },
+        { "index": "C", "text": "Tree" },
+        { "index": "D", "text": "Graph" }
+      ],
+      "answer": "B",
+      "attempts": [],
+      "userAnswer": ""
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is primarily used for structuring web pages?",
+      "type": "mcq",
+      "options": [
+        { "index": "A", "text": "Python" },
+        { "index": "B", "text": "Java" },
+        { "index": "C", "text": "HTML" },
+        { "index": "D", "text": "C++" }
+      ],
+      "answer": "C",
+      "attempts": [],
+      "userAnswer": ""
+    },
+    {
+      "id": 4,
+      "question": "Which chemical symbol stands for Gold?",
+      "type": "mcq",
+      "options": [
+        { "index": "A", "text": "Au" },
+        { "index": "B", "text": "Gd" },
+        { "index": "C", "text": "Ag" },
+        { "index": "D", "text": "Pt" }
+      ],
+      "answer": "A",
+      "attempts": [],
+      "userAnswer": ""
+    },
+    {
+      "id": 5,
+      "question": "Which of these processes is not typically involved in refining petroleum?",
+      "type": "mcq",
+      "options": [
+        { "index": "A", "text": "Fractional distillation" },
+        { "index": "B", "text": "Cracking" },
+        { "index": "C", "text": "Polymerization" },
+        { "index": "D", "text": "Filtration" }
+      ],
+      "answer": "D",
+      "attempts": [],
+      "userAnswer": ""
+    },
+    {
+      "id": 6,
+      "question": "What is the value of 12 + 28?",
+      "type": "input",
+      "answer": "40",
+      "attempts": [],
+      "userAnswer": ""
+    },
+    {
+      "id": 7,
+      "question": "How many states are there in the United States?",
+      "type": "input",
+      "answer": "50",
+      "attempts": [],
+      "userAnswer": ""
+    },
+    {
+      "id": 8,
+      "question": "In which year was the Declaration of Independence signed?",
+      "type": "input",
+      "answer": "1776",
+      "attempts": [],
+      "userAnswer": ""
+    },
+    {
+      "id": 9,
+      "question": "What is the value of pi rounded to the nearest integer?",
+      "type": "input",
+      "answer": "3",
+      "attempts": [],
+      "userAnswer": ""
+    },
+    {
+      "id": 10,
+      "question": "If a car travels at 60 mph for 2 hours, how many miles does it travel?",
+      "type": "input",
+      "answer": "120",
+      "attempts": [],
+      "userAnswer": ""
+    }
+  ]
+}
