@@ -97,6 +97,10 @@ const QuestionModal = () => {
     );
     setallQuestions(updatedData);
 
+    setCurrentQuestion((prev) => ({
+      ...prev,
+      attempts: [...prev.attempts, item],
+    }));
     // setSelectedOption(item);
   };
 
