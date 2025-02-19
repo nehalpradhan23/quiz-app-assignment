@@ -20,8 +20,10 @@ const ViewAllAttempts = () => {
     <div className="no-doc-scroll w-screen h-full overflow-y-scroll inset-0 fixed flex justify-center items-center bg-black/50 z-50">
       <div className="w-[90%] h-[80%] lg:w-[1000px] rounded-2xl bg-white p-2">
         <div className="p-6 overflow-y-scroll h-full flex flex-col gap-8">
-          <div className="flex justify-between">
-            <div className="font-semibold text-2xl">All attempts</div>
+          <div className="flex justify-between items-center">
+            <div className="font-semibold text-xl md:text-2xl">
+              All attempts
+            </div>
             <button
               onClick={handleModalClose}
               className="bg-slate-900 text-white px-4 py-2 rounded-md"

@@ -110,7 +110,7 @@ const QuestionModal = () => {
     <div className="no-doc-scroll w-screen h-full overflow-y-scroll inset-0 fixed flex justify-center items-center bg-black/50 z-50">
       <div className="w-[90%] h-[80%] lg:w-[1000px] rounded-2xl bg-white p-2">
         <div className="p-6 overflow-y-scroll h-full flex flex-col gap-8">
-          <div className="flex justify-between">
+          <div className="flex justify-between items-center">
             <div className="">Time remaining: {timer}</div>
             <button
               onClick={handleModalClose}

@@ -43,7 +43,7 @@ const Questions = () => {
           {/* ----------------- */}
           <div className="flex justify-between items-center">
             {/* TODO */}
-            <div className="flex gap-2 items-center">
+            <div className="flex gap-2 items-center max-md:text-sm">
               <span>Attempts: {data?.attempts.length} </span>
               {data?.attempts.length > 0 && (
                 <button
@@ -55,7 +55,7 @@ const Questions = () => {
               )}
             </div>
             <button
-              className="bg-slate-950 text-white px-4 py-2 rounded-md"
+              className="bg-slate-950 text-white px-4 py-2 max-md:text-sm rounded-md"
               onClick={() => handleQuestionAttempt(data)}
             >
               Attempt

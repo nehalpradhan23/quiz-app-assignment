@@ -27,7 +27,7 @@ export default function Home() {
           Interactive quiz app
         </h1>
         <div className="flex justify-between items-center my-5">
-          <div className="flex gap-2 font-semibold">
+          <div className="flex gap-2 max-md:text-sm font-semibold">
             <span className="text-red-500">
               Total attempts: {score.attempts}
             </span>
@@ -38,7 +38,7 @@ export default function Home() {
           </div>
           <button
             onClick={resetQuiz}
-            className="my-5 bg-slate-900 px-4 py-2 rounded-md text-white text-right "
+            className="my-5 bg-slate-900 flex items-center justify-center p-1 md:px-4 md:py-2 max-md:text-sm rounded-md text-white"
           >
             Reset quiz
           </button>
